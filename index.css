@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.section {
+    border: 3px solid pink;
+    padding: 1em;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.color {
+    color: red;
+}
