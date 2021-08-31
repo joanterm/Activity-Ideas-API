@@ -11,7 +11,7 @@ button.addEventListener("click", () => {
 })
 .then((data) => {
     activityArea.innerHTML = `
-        <h2 class="color">${data.activity}</h2>
+        <p class="api-text">${data.activity}</p>
     `
 })
 })
